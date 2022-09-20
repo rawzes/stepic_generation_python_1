@@ -8,6 +8,7 @@
 *******
 '''
 
+'''
 print('*')
 print('**')
 print('***')
@@ -18,6 +19,18 @@ print('*******')
 
 for i in range(7):
     print('*' * i)
+name = input()
+print('Привет,', name)
+print(input(), '- чемпион!')
+
+'''
+
+a = input()
+b = input()
+c = input()
+print(c)
+print(b)
+print(a)
 
 
 print('a', 'b', 'c', sep='***')
