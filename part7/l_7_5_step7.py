@@ -1,6 +1,9 @@
+import math
+
 n = int(input())
 
 num_count = 0
+tmp = n
 sum = 0
 avg = 0
 first = 0
@@ -20,8 +23,9 @@ print(sum)
 print(num_count)
 print(mult)
 print(sum / num_count)
-print(n)
-print(n + last)
+first = int(tmp // math.pow(10, num_count -1))
+print(first)
+print(first + last)
 '''
 сумму его цифр;
 количество цифр в нем;
