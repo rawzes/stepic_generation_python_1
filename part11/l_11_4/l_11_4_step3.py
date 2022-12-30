@@ -10,3 +10,4 @@ for item in list_input:
 print(*list_input, sep='\n')
 print()
 print(*list_values, sep='\n')
+
