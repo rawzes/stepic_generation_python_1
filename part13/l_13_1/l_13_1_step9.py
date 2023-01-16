@@ -5,3 +5,4 @@ def draw_triangle():
 
 
 draw_triangle()
+print(13 // 3)
